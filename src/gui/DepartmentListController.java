@@ -4,8 +4,6 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-import com.sun.jdi.event.VMDisconnectEvent;
-
 import application.Main;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
