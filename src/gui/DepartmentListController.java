@@ -88,7 +88,7 @@ public class DepartmentListController implements Initializable{
 			dialogStage.setTitle("Enter Department data");
 			dialogStage.setScene(new Scene (pane));
 			dialogStage.setResizable(false);
-			dialogStage.initModality(Modality.WINDOW_MODAL);
+			dialogStage.initModality(Modality.APPLICATION_MODAL);
 			dialogStage.showAndWait();
 		}
 		catch (IOException e ) {
