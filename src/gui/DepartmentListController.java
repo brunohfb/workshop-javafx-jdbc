@@ -87,6 +87,7 @@ public class DepartmentListController implements Initializable{
 			
 			DepartmentFormController controller = loader.getController();
 			controller.setDepartment(obj);
+			controller.setDepartmentService(new DepartmentService());
 			controller.updateFormData();
 			
 			
@@ -100,14 +101,7 @@ public class DepartmentListController implements Initializable{
 		catch (IOException e ) {
 			Alerts.showAlert("IOException", "Error loading view", e.getMessage(), AlertType.ERROR);
 		}
-		
-		
+				
 	}
-	
-	
-	
-	
-	
-	
-	
+		
 }
